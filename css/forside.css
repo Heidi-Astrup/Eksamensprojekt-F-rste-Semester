@@ -1,0 +1,72 @@
+/* kode til slideshow fra w3schools: https://www.w3schools.com/howto/howto_js_slideshow.asp*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --lysebla: #66BDED;
+    --morkebla: #0240D0;
+    --lyserod: #EB92E5;
+    --sort: #000;
+    --overskrift: "Bebas Neue", sans-serif;
+    --brodtekst: "Public Sans", serif;
+}
+
+
+body {
+    margin: 0px;
+}
+
+.mySlides {
+    display: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0px 2px;
+  background-color: var(--lysebla);
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: var(--lyserod);
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 2.5s;
+}
+
+@keyframes fade {
+  from {opacity: .5} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+
+/*The big three*/
+h2 {
+    font-family: var(--overskrift);
+    color: var(--lyserod);
+    font-size: 50px;
+    text-align: center;
+}
+
