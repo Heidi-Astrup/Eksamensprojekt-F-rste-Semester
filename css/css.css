@@ -13,6 +13,7 @@ body {
     margin: 0px;
 }
 
+/*-----------------------------------Header og top navigation med burgermenu--------------------------------------*/
 header {
     font-family: var(--overskrift);
 }
@@ -34,11 +35,10 @@ header {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-
+    font-size: 40px;
   }
 
   .links {
-    font-size: 48px;
     margin-top: 70px;
   }
   
@@ -51,6 +51,7 @@ header {
     .topnav a {
         margin-right: 0%;
     }
+    
   }
 
 

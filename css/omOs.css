@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --lysebla: #66BDED;
+    --morkebla: #0240D0;
+    --lyserod: #EB92E5;
+    --sort: #000;
+    --overskrift: "Bebas Neue", sans-serif;
+    --vaegt: 200;
+    --brodtekst: "Public Sans", serif;
+}
+
+h2 {
+    font-family: var(--overskrift);
+    color: var(--lyserod);
+    font-size: 40px;
+    text-align: center;
+    font-weight: normal;
+    margin-bottom: 0px;
+}
+
+p {
+    font-family: var(--brodtekst);
+    font-weight: var(--vaegt);
+    font-size: 18px;
+}
+
+.tekst {
+    width: 75%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.tekstbox {
+    width: 48%;
+}
+
+
+/*Styling at billede med tilohørende citat*/
+.citatOgBillede {
+    text-align: center;
+    width: 30%;
+    margin: auto;
+    margin-top: 5%;
+
+}
+
+.citatOgBillede img {
+    width: 70%;
+}
+
+
+/*Styling af værdier*/
+section {
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+section article {
+    width: 25%;
+    border: 7px solid var(--lysebla);
+    margin: 5px;
+    padding: 20px;
+    text-align: center;
+    min-height: 340px;
+
+}
+
+h3 {
+    font-family: var(--overskrift);
+    color: var(--lyserod);
+    font-size: 35px;
+    text-align: center;
+    font-weight: normal;
+    margin: 0px;
+}
+
+
+  /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 700px) {
+    .tekst {
+        width: 85%;
+    }
+    .tekstbox {
+        width: 100%;
+    }
+
+    .citatOgBillede {
+        width: 85%;
+    }
+
+    section {
+        width: 75%;
+        flex-wrap: wrap;
+    }
+
+    section article {
+        width: 100%;
+    }
+
+  }

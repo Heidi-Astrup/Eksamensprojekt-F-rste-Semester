@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --lysebla: #66BDED;
+    --morkebla: #0240D0;
+    --lyserod: #EB92E5;
+    --sort: #000;
+    --overskrift: "Bebas Neue", sans-serif;
+    --brodtekst: "Public Sans", serif;
+    --knekketBlaHvid: #EEF3FF;
+}
+
+body {
+    background-color: var(--sort);
+}
+
+.rock {
+    background-color: var(--sort);
+    color: red;
+    font-family: var(--overskrift);
+    font-size: 60px;
+    text-align: center;
+    font-weight: normal;
+    margin-top: 15%;
+}

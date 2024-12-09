@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --lysebla: #66BDED;
+    --morkebla: #0240D0;
+    --lyserod: #EB92E5;
+    --sort: #000;
+    --overskrift: "Bebas Neue", sans-serif;
+    --brodtekst: "Public Sans", serif;
+    --knekketBlaHvid: #EEF3FF;
+}
+
+body {
+    background-color: var(--morkebla);
+}
+
+h2 {
+    font-family: var(--overskrift);
+    color: var(--knekketBlaHvid);
+    font-size: 40px;
+    text-align: center;
+    font-weight: normal;
+    margin-bottom: 0px;
+}
+
+.alleGenre {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: auto;
+}
+
+.alleGenre a {
+    width: 20%;
+    margin: 5px;
+    text-decoration: none;
+}
+
+a .genre {
+    font-family: var(--overskrift);
+    color: var(--sort);
+    font-size: 30px;
+    text-align: center;
+    padding: 50px 10px;
+    background-color: var(--lyserod);
+    margin-top: 0px;
+}
+
+a .genre:hover {
+    background-color: var(--lysebla);
+}
+
+@media screen and (max-width: 890px) {
+    .alleGenre a {
+        width: 30%;
+    }
+
+    a .genre {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    
+  }
+
+
+
+  /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 700px) {
+    .alleGenre a {
+        width: 45%;
+    }
+
+  }
+
