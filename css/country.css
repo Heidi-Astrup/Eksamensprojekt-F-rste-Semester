@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    font-family: 'saddlebag';
+    src: url('/saddlebag/Saddlebag.ttf');
+  }
+
+:root {
+    --lysebla: #66BDED;
+    --morkebla: #0240D0;
+    --lyserod: #EB92E5;
+    --sort: #000;
+    --overskrift: "Bebas Neue", sans-serif;
+    --brodtekst: "Public Sans", serif;
+    --vaegt: 200;
+    --countrybla: #21455F;
+    --countrylysbla: #73A7C6;
+    --countryorange: #EA6820;
+    --countrylysbrun: #B1510A;
+    --countrybrun: #8A493F;
+    --countryknekkethvid: #FFF4EB;
+    --saddlebag: "saddlebag"; 
+}
+
+
+
+body {
+    background-color: var(--countrylysbrun);
+}
+
+/*Jeg bruger font-weight for at lave overskriver "ikke bold" da overskrifter normat har en default indstilling der gør at den skriver i fed skrift*/
+h2 {
+    text-align: center;
+    font-weight: normal;
+    font-family: var(--saddlebag);
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    text-align: center;
+    font-weight: normal;
+    font-family: var(--saddlebag);
+    font-size: 30px;
+    margin: 0px;
+    color: var(--countrylysbla);
+}
+
+p {
+    font-family: var(--brodtekst);
+    font-weight: var(--vaegt);
+    font-size: 18px;
+}
+
+/*styling af øverste del af countrysiden med forklaring af genren og lille kalender*/
+.genrebeskrivelseOgKalender {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+
+.genrebeskrive {
+    width: 30%;
+}
+
+.kalender {
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.kalenderevent img {
+    width: 100%;
+}
+
+.kalenderevent {
+    width: 45%;
+    text-align: center;
+    padding: 1%;
+    padding-bottom: 2%;
+    background-color: var(--countrybla);
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/*Styling af Hold øje med-delen*/
+#brun {
+    background-color: var(--countrybrun);
+    padding-bottom: 5%;
+}
+
+#holdOjeMed {
+    padding-top: 3%;
+    color: var(--countryorange);
+    font-size: 60px;
+}
+
+.holdOjeMed h4, .holdOjeMed p {
+    color: var(--countryknekkethvid);
+}
+
+.holdOjeMed {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.alex {
+    width: 30%;
+}
+
+h4 {
+    font-family: var(--brodtekst);
+    font-weight: var(--vaegt);
+    font-size: 40px;
+    margin: 0px;
+}
+
+.alex img {
+    width: 100%;
+}
+
+#lyt {
+    font-size: 25px;
+}
+
+.lyt {
+    background-color: var(--countryorange);
+    padding: 2%;
+}
+
+
+/*styling af opdag nye kunstnere delen*/
+#opdag {
+    font-size: 60px;
+    color: var(--countrybla);
+}
+
+#anbefalinger {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.anbefalinger {
+    width: 35%;
+    text-align: center;
+}
+
+.anbefalinger img {
+    width: 100%;
+}
+
+
+/*Styling af forslag til andre genre man måske kan lide*/
+.andreGenre {
+    background-color: var(--countrybla);
+    padding-top: 50px;
+}
+
+.andreGenre h2 {
+    font-size: 60px;
+    color: var(--countrylysbla);
+    margin-top: 0px;
+}
+
+.relateretGenre {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 90%;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.relateretGenre a {
+    width: 30%;
+}
+
+a .genre {
+    font-family: var(--saddlebag);
+    color: var(--countrybla);
+    font-size: 40px;
+    text-align: center;
+    padding: 80px;
+    background-color: var(--countrylysbla);
+    border: 3px solid var(--countrybla);
+    margin-top: 0px;
+}
+
+a .genre:hover {
+    color: var(--countrylysbrun);
+    border: 3px solid var(--countrylysbrun);
+}
+
+
+
+  /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+  @media screen and (max-width: 700px) {
+    p {
+        font-size: 23px;
+    }
+
+    /*styling af øverste del af countrysiden med forklaring af genren og lille kalender*/
+    .genrebeskrive, .kalender {
+        width: 100%;
+    }
+
+    .genrebeskrive {
+        margin-bottom: 10px;
+    }
+
+    h2 {
+        margin-bottom: 0px;
+    }
+
+    h3 {
+        font-size: 25px;
+    }
+
+    /*Styling af Hold øje med-delen*/
+    .alex {
+        width: 100%;
+    }
+
+    /*styling af opdag nye kunstnere delen*/
+    .anbefalinger {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    /*Styling af forslag til andre genre man måske kan lide*/
+    .relateretGenre a {
+        width: 100%;
+    }
+
+    .andreGenre h2 {
+        width: 90%;
+        margin: auto;
+        margin-bottom: 15px;
+    }
+
+  }
+
