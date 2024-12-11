@@ -42,14 +42,15 @@ p {
 /*Styling at billede med tilohørende citat*/
 .citatOgBillede {
     text-align: center;
-    width: 30%;
     margin: auto;
     margin-top: 5%;
+    padding: 50px;
+    background-color: var(--lysebla);
 
 }
 
 .citatOgBillede img {
-    width: 70%;
+    width: 25%;
 }
 
 
