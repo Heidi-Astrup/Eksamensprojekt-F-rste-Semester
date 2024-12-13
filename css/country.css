@@ -52,7 +52,27 @@ p {
     font-size: 18px;
 }
 
+#infographic {
+    width: 90%;
+    position: relative;
+    left: 5%;
+}
+
+#infographicMobil {
+    display: none;
+}
+
 /*styling af øverste del af countrysiden med forklaring af genren og lille kalender*/
+.kal {
+    background-color: var(--countrylysbla);
+    padding-top: 20px;
+}
+
+.kal h2 {
+    color: var(--countrybla);
+    font-size: 50px;
+}
+
 .genrebeskrivelseOgKalender {
     display: flex;
     justify-content: space-evenly;
@@ -68,7 +88,7 @@ p {
 }
 
 .kalender {
-    width: 45%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -80,7 +100,7 @@ p {
 }
 
 .kalenderevent {
-    width: 45%;
+    width: 20%;
     text-align: center;
     padding: 1%;
     padding-bottom: 2%;
@@ -215,6 +235,15 @@ a .genre:hover {
   @media screen and (max-width: 700px) {
     p {
         font-size: 23px;
+    }
+
+    /*styling af infographic*/
+    #infographic {
+        display: none;
+    }
+    
+    #infographicMobil {
+        display: inline;
     }
 
     /*styling af øverste del af countrysiden med forklaring af genren og lille kalender*/
