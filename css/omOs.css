@@ -39,7 +39,7 @@ p {
 }
 
 
-/*Styling at billede med tilohørende citat*/
+/*Styling at billede med tilhørende citat*/
 .citatOgBillede {
     text-align: center;
     margin: auto;
@@ -73,13 +73,17 @@ section article {
 
 }
 
-h3 {
+article h3 {
     font-family: var(--overskrift);
     color: var(--lyserod);
     font-size: 35px;
     text-align: center;
     font-weight: normal;
     margin: 0px;
+}
+
+main {
+    margin-bottom: 60px;
 }
 
 
@@ -92,8 +96,8 @@ h3 {
         width: 100%;
     }
 
-    .citatOgBillede {
-        width: 85%;
+    .citatOgBillede img {
+        width: 70%;
     }
 
     section {
@@ -106,3 +110,4 @@ h3 {
     }
 
   }
+
