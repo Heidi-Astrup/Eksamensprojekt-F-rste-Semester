@@ -52,6 +52,7 @@ a .genre:hover {
     background-color: var(--lysebla);
 }
 
+
 @media screen and (max-width: 890px) {
     .alleGenre a {
         width: 30%;
@@ -70,6 +71,11 @@ a .genre:hover {
 @media screen and (max-width: 700px) {
     .alleGenre a {
         width: 45%;
+    }
+
+    /*Lidt margin til selve genresiden*/
+    main {
+        padding-bottom: 10%;
     }
 
   }

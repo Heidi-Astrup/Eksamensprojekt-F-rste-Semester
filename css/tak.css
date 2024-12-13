@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --lysebla: #66BDED;
+    --morkebla: #0240D0;
+    --lyserod: #EB92E5;
+    --sort: #000;
+    --overskrift: "Bebas Neue", sans-serif;
+    --brodtekst: "Public Sans", serif;
+    --vaegt: 200;
+}
+
+h2 {
+    font-family: var(--overskrift);
+    font-weight: 100;
+    margin: auto;
+    text-align: center;
+    width: 70%;
+    margin-top: 5%;
+    margin-bottom: 20%;
+    font-size: 50px;
+    color: var(--lyserod);
+}
