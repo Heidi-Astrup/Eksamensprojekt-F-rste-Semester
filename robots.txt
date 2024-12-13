@@ -1,2 +1,4 @@
 user-agent: *
 allow: /
+
+sitemap: sitemap.xml
