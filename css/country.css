@@ -66,6 +66,7 @@ p {
 .kal {
     background-color: var(--countrylysbla);
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .kal h2 {
@@ -73,27 +74,12 @@ p {
     font-size: 50px;
 }
 
-.genrebeskrivelseOgKalender {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    width: 90%;
-    margin: auto;
-    margin-bottom: 50px;
-}
-
-
-.genrebeskrive {
-    width: 30%;
-}
-
 .kalender {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
-
 
 .kalenderevent img {
     width: 100%;
@@ -105,7 +91,7 @@ p {
     padding: 1%;
     padding-bottom: 2%;
     background-color: var(--countrybla);
-    margin-bottom: 20px;
+    margin-bottom: 70px;
 }
 
 a {
@@ -119,10 +105,13 @@ a {
     padding-bottom: 5%;
 }
 
+
+
 #holdOjeMed {
     padding-top: 3%;
     color: var(--countryorange);
     font-size: 60px;
+    margin-top: 0px;
 }
 
 .holdOjeMed h4, .holdOjeMed p {
@@ -130,7 +119,7 @@ a {
 }
 
 .holdOjeMed {
-    width: 90%;
+    width: 95%;
     margin: auto;
     display: flex;
     justify-content: space-evenly;
@@ -159,7 +148,22 @@ h4 {
 .lyt {
     background-color: var(--countryorange);
     padding: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2%;
 }
+
+#lyd {
+    width: 70%;
+    height: 30px;
+}
+
+/*kode til ændring af baggrundsfarven på audio er fra: https://blog.shahednasser.com/how-to-style-an-audio-element/*/
+audio::-webkit-media-controls-panel {
+    background-color: var(--countryorange);
+  }
+  
 
 
 /*styling af opdag nye kunstnere delen*/
