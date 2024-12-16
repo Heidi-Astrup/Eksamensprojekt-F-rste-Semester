@@ -83,6 +83,7 @@ p {
 
 .kalenderevent img {
     width: 100%;
+    margin-bottom: 10px;
 }
 
 .kalenderevent {
@@ -154,7 +155,7 @@ h4 {
     margin-bottom: 2%;
 }
 
-#lyd {
+.lyd {
     width: 70%;
     height: 30px;
 }
@@ -262,6 +263,10 @@ a .genre:hover {
 
     .kalenderevent h3 {
         font-size: 21px;
+    }
+
+    .kalenderevent img {
+        margin-bottom: 2%;
     }
 
     .kal {
