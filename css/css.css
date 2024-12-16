@@ -185,5 +185,16 @@ form {
       display: none;
     }
 
+    form {
+      padding-top: 10%;
+      padding-bottom: 17%;
+    }
+
+    input {
+      width: 70%;
+      margin-top: 10px;
+      padding: 20px;
+    }
+
     
   }

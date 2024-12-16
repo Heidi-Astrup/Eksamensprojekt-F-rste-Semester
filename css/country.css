@@ -71,7 +71,7 @@ p {
 
 .kal h2 {
     color: var(--countrybla);
-    font-size: 50px;
+    font-size: 60px;
 }
 
 .kalender {
@@ -250,21 +250,22 @@ a .genre:hover {
         display: inline;
     }
 
-    /*styling af øverste del af countrysiden med forklaring af genren og lille kalender*/
-    .genrebeskrive, .kalender {
-        width: 100%;
-    }
-
-    .genrebeskrive {
-        margin-bottom: 10px;
+    /*styling af den lille kalender*/
+    .kalenderevent {
+        width: 40%;
+        margin-bottom: 20px;
     }
 
     h2 {
         margin-bottom: 0px;
     }
 
-    h3 {
-        font-size: 25px;
+    .kalenderevent h3 {
+        font-size: 21px;
+    }
+
+    .kal {
+        padding-bottom: 50px;
     }
 
     /*Styling af Hold øje med-delen*/
