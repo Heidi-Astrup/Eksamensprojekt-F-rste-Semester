@@ -8,28 +8,33 @@
 
 
 <url>
-  <loc>https://radar.astrupdesigns.dk/index.html</loc>
-  <lastmod>2024-12-13T11:57:18+00:00</lastmod>
+  <loc>https://radar.astrupdesigns.dk/</loc>
+  <lastmod>2024-12-17T14:31:53+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
+  <loc>https://radar.astrupdesigns.dk/index.html</loc>
+  <lastmod>2024-12-17T14:31:53+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
   <loc>https://radar.astrupdesigns.dk/omOs.html</loc>
-  <lastmod>2024-12-13T11:57:19+00:00</lastmod>
+  <lastmod>2024-12-17T14:32:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://radar.astrupdesigns.dk/genre.html</loc>
-  <lastmod>2024-12-13T11:57:18+00:00</lastmod>
+  <lastmod>2024-12-17T14:32:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://radar.astrupdesigns.dk/country.html</loc>
-  <lastmod>2024-12-13T11:57:19+00:00</lastmod>
+  <lastmod>2024-12-17T14:32:19+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://radar.astrupdesigns.dk/rock.html</loc>
-  <lastmod>2024-12-13T11:57:19+00:00</lastmod>
+  <lastmod>2024-12-17T14:32:19+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 

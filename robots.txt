@@ -1,4 +1,4 @@
 user-agent: *
-allow: 
+allow: /
 
-sitemap: sitemap.xml
+sitemap: https://radar.astrupdesigns.dk/sitemap.xml
